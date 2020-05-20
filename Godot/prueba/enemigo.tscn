@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Sprites/helicoptero.svg" type="Texture" id=1]
+
+[node name="enemigo" type="RigidBody2D"]
+
+[node name="helicoptero" type="Sprite" parent="."]
+position = Vector2( 505.452, 369.073 )
+scale = Vector2( 1, 0.951919 )
+texture = ExtResource( 1 )
